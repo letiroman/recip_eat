@@ -1,0 +1,114 @@
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(245,245,245);  
+}
+
+header .logo{
+    margin: 0;
+    padding: 5px 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 1.4em;
+}
+
+header.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: rgb(178, 225, 103);
+}
+
+#login-box {
+    border: 0px solid rgb(255, 255, 255);
+    width: 30%; 
+    text-align: center;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 40%;
+    background-color: black;
+    background-size: 200px;
+    padding: 10px 50px;
+}
+
+#login-box h1 {
+    color: rgb(255, 255, 255);
+}
+
+#login-box .form .item input {
+    width: 150px; 
+    border: 0;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.483);
+    font-size: 18px; 
+    background: #ffffff00; 
+    color: rgb(255, 255, 255); 
+    padding: 5px 10px; 
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    border: 0; 
+    width: 75px; 
+    height: 20px;
+    margin-top: 20px; 
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.724); 
+    border-radius: 25px; 
+    background-color:white ; 
+}
+
+body {
+    background-color: rgb(174, 212, 108); 
+    background-size: auto; 
+    background-repeat: no-repeat; 
+}
+
+footer{
+    background-color:rgb(245,245,245);
+    
+}
+
+footer p{
+    margin: 0;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+
+footer.container{
+    margin-bottom: auto;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+}
+
+

@@ -1,0 +1,432 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 844;
+    width: 390;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.logo{margin-top: 200px;width:150px;}
+
+
+h1{ font-size: 1em;}
+h2{ font-size: 2.7em;color: white;}
+h3{ font-size: 2em;color: white;}
+h4{ font-size: 2em;color: #000000;}
+h5{ font-size: 1.7em;color: #000000;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+header{
+    margin-top: 0px;
+    background-color: rgba(255, 255, 255, 0.762);  
+    height: 40px;
+    width: 390px;
+    align-items: center;
+
+}
+
+header.container{
+    display: inline;
+    height: 40px;
+    width: 390px;
+}
+
+header 
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: rgb(178, 225, 103);
+}
+
+a:hover{
+    color: rgb(178, 225, 103);
+}
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 250px 12px;
+}
+
+#caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 0px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+button:hover{
+    background-color: #b2e167;
+}
+
+.container{
+    max-width: 100px;
+    margin: auto;
+}
+
+.color-acento{ color:#b2e167; }
+
+#question{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-color: rgb(30,30,30);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+#question h1{
+    color: white;
+}
+
+#question button{
+    font-size: 1.75em;
+    color: rgb(255, 255, 255);
+}
+
+#somos-proya .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#nuestros-programas{
+    background-image: url("media/pensando.jpg");
+    background-size: 10rem;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+#nuestros-programas .container{
+    padding: 70px 110px;
+}
+
+#nuestros-programas h2{
+    margin-top: 0;
+    font-size: 2.5em;
+}
+
+#nuestros-programas p{
+    display: none;
+}
+
+#nuestros-programas .opcion{
+    background-color: rgba(255, 255, 255, 0.248);
+    background-size: 10rem;
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#tipos-comida{
+    background-color:rgb(255, 255, 255);
+    background-size: 10rem;
+    background-position: center center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#tipos-comida .container{
+    padding: 150px 12px;
+}
+
+#tipos-comida h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#tipos-comida p{
+    display: none;
+}
+
+#tipos-comida .carta{
+    background-size: 10rem;
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0),
+        rgba(0,0,0,0.5)
+    ),url("media/tostadahigos.jpg");
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0),
+        rgba(0,0,0,0.5)
+    ),url("media/pasta.jpg");
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0),
+        rgba(0,0,0,0.5)
+    ),url("media/alcachofas.jpg");
+}
+
+#nuestras-opciones{
+    background-image: url("media/alcachofas.jpg");
+    background-size: 10rem;
+    background-position: center center;
+    background-size: cover;    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#nuestras-opciones .container{
+    padding: 100px 50px;
+}
+
+#nuestras-opciones h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#nuestras-opciones p{
+    display: none;
+}
+
+#nuestras-opciones .carta{  
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-color: rgba(255, 255, 255, 0.914);
+}
+
+.carta:nth-child(2){
+    background-color: rgba(255, 255, 255, 0.914);
+}
+
+.carta:nth-child(3){
+    background-color: rgba(255, 255, 255, 0.914);
+}
+
+.carta:nth-child(4){
+    background-color: rgba(255, 255, 255, 0.914);
+}
+
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(231, 42, 42);
+    color: white;
+    height: 80vh;
+}
+
+#final h2{
+    font-size: 9vw;
+}
+
+#final button{
+    font-size: 5vw;
+}
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+
+footer .container{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width: 850px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #hero h1{
+        font-size: 5em;
+    }
+
+    #somos-proya .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #somos-proya .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #somos-proya h2{
+        margin-top: 0px;
+    }
+
+    #somos-proya .img-container{
+        background-image: url("media/pasta.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px; 
+    }
+
+    #nuestros-programas .programas{
+        display: flex;
+        justify-content: center;
+    }
+
+    #nuestros-programas p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #nuestros-programas h2{
+        font-size: 4em;
+    }
+
+    #nuestros-programas h3{
+        margin-top: 0;
+    }
+
+    #nuestros-programas .carta{
+        padding: 80px;
+        background-size: 100% 350px;
+        background-repeat: no-repeat;
+        background-position-y:20;
+        background-color: rgba(50, 50, 50, 0);
+    }
+
+    .carta:first-child{
+        background-color: white;
+    }
+
+    .carta:nth-child(2){
+        background-color: white;
+    }
+
+
+    #nuestros-programas .programas{
+        display: flex;
+        justify-content: center;
+    }
+
+    #nuestros-programas p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #nuestros-programas h2{
+        font-size: 4em;
+    }
+
+    #nuestros-programas h3{
+        margin-top: 0;
+    }
+
+    #nuestros-programas .carta{
+        padding: 80px;
+        background-size: 100% 350px;
+        background-repeat: no-repeat;
+        background-position-y:20;
+        background-color: rgba(50, 50, 50, 0);
+    }
+
+    .carta:first-child{
+        background-color: white;
+
+    }
+
+    .carta:nth-child(2){
+        background-color: white;
+    }
+
+    #caracteristicas{
+        background-image: url("media/foto.jpg");
+        background-repeat: no-repeat;
+        background-size: 700px 400px;
+        background-position: calc(100vw - 600px) 150px;
+    }
+
+    #caracteristicas .container{
+        text-align: initial;
+    }
+
+    #caracteristicas ul{
+        margin-left: 30px;
+    }
+
+    #final h2{
+        font-size: 5em;
+    }
+
+    #final button{
+        font-size: 2em;
+    }
+
+    footer .container{
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 1200px) {
+    #caracteristicas{
+        background-position-x: calc(100vw - 800px);
+    }
+}

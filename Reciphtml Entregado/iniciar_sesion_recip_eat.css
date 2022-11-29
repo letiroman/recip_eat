@@ -1,0 +1,94 @@
+   
+header{
+    background-color: rgb(245,245,245);
+    
+}
+
+header .logo{
+    margin: 0;
+    padding: 5px 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: rgb(178, 225, 103);
+}
+
+
+#login-box {
+    border: 0px solid rgb(255, 255, 255);
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15%;
+    background: #00000084;
+    padding: 20px 50px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+#login-box h1 {
+    color: rgb(255, 255, 255);
+}
+
+#login-box .form .item input {
+    width: 200px; 
+    border: 0;
+    border-bottom: 2px solid white;
+    font-size: 18px; 
+    background: #ffffff00; 
+    color: white; 
+    padding: 5px 10px; 
+}
+
+#login-box .form .item i {
+    color: white;
+    font-size: 18px;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    border: 0; 
+    width: 150px; 
+    height: 30px;
+    margin-top: 18px; 
+    font-size: 18px;
+    color: white; 
+    border-radius: 25px; 
+    background-image: linear-gradient(to right, #e36464 0%, #80033de3 100%); 
+}
+
+body {
+    background: url("media/Imagen 1.jpg") center; 
+    background-size: auto; 
+    background-repeat: no-repeat; 
+}
+
+
+
